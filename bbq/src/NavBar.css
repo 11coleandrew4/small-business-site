@@ -1,0 +1,8 @@
+#navbar-list {
+  list-style-type: none;
+}
+
+#navbar-list li {
+  display: inline;
+  padding-inline: 2rem;
+}

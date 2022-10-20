@@ -1,3 +1,17 @@
+#navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+#navbar-logo {
+  margin-left: 1rem;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
 #navbar-list {
   list-style-type: none;
 }

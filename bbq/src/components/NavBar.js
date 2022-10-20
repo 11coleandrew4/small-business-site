@@ -7,7 +7,8 @@ import './Home';
 
 export default function NavBar() {
   return (
-    <div>
+    <div id="navbar-container">
+      <div id="navbar-logo">The BBQ Pit</div>
       <ul id="navbar-list">
         <li>
           <Link to="/">Home</Link>

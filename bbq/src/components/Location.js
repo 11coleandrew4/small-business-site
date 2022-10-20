@@ -5,9 +5,13 @@ import NavBar from './NavBar.js';
 
 export default function Location() {
   return (
-    <div id="location-container">
-      <NavBar></NavBar>
-      <h2>Location</h2>
+    <div>
+      <NavBar />
+      <div id="location-container">
+        <div id="top-text-location">
+          <h2 className="location-top-text">Location</h2>
+        </div>
+      </div>
     </div>
   );
 }

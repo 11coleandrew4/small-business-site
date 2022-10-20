@@ -1,3 +1,11 @@
 #carry-out-container {
   text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.carry-out-top-text {
+  color: white;
+  margin: 1vh;
+  max-width: 100vh;
 }

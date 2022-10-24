@@ -7,16 +7,13 @@
 }
 
 .home-top-text {
-  color: white;
+  background-color: rgb(61, 151, 230);
+  color: rgb(255, 255, 255);
   margin: 1vw;
   max-width: 45vw;
-}
-
-#home-main-text {
-  color: white;
-  margin: 1vw;
-
-  max-width: 80vw;
+  border-width: 3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
   font-size: 20px;
 }
 
@@ -26,4 +23,9 @@
   border-radius: 25px;
   float: left;
   flex-shrink: inherit;
+}
+
+/* For Deleting */
+#isDeleted {
+  display: none;
 }

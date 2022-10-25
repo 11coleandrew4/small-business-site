@@ -3,15 +3,13 @@ import '../Home.css';
 import '../NavBar.css';
 import Banner from './Banner';
 import AboutUs from './AboutUs';
+import HoursBanner from './HoursBanner';
 
 export default function Home() {
   return (
     <div id="home-container">
-      <div id="home-top-text">
-        <Banner />
-      </div>
-      <br />
-      <AboutUs />
+      <Banner />
+      <HoursBanner />
     </div>
   );
 }

@@ -1,0 +1,27 @@
+#hours-banner-container {
+  background-color: #ffb466;
+  height: 13em;
+  width: 100%;
+  margin-top: 0vh;
+  top: 59vh;
+  transform: translate(0, -59vhvh);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#map-icon {
+  height: 5em;
+  width: 5em;
+}
+
+#phone-icon {
+  height: 5em;
+  width: 5em;
+}
+
+#clock-icon {
+  height: 5em;
+  width: 5em;
+}

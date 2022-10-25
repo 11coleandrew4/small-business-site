@@ -6,25 +6,6 @@
   align-items: center;
 }
 
-.home-top-text {
-  background-color: rgb(61, 151, 230);
-  color: rgb(255, 255, 255);
-  margin: 1vw;
-  max-width: 45vw;
-  border-width: 3px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 15px;
-  font-size: 20px;
-}
-
-#interior-picture {
-  max-width: 50vw;
-  max-height: 38vh;
-  border-radius: 25px;
-  float: left;
-  flex-shrink: inherit;
-}
-
 /* For Deleting */
 #isDeleted {
   display: none;

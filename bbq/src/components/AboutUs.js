@@ -4,7 +4,7 @@ import '../AboutUs.css';
 export default function AboutUs() {
   return (
     <div className="about-us-container">
-      <img src="/interior.png" alt="interior" id="interior-picture" />
+      <img src="/owner.png" alt="interior" id="interior-picture" />
       <h2>Our Story</h2>
       <p>
         As if you didn’t know by now, The BBQ Pit is a family owned and run

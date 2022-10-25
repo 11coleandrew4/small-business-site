@@ -38,20 +38,17 @@
 .button-box {
   background-color: #ff6766;
   width: 20vw;
+
+  font-size: 20px;
 }
 
 .banner-button {
   transition: all 0.3s;
   position: relative;
   line-height: 50px;
-  height: 80px;
+  height: 6.5vh;
   text-align: center;
-  width: 250px;
   cursor: pointer;
-}
-
-#banner-button {
-  transition: all 0.3s;
 }
 
 .banner-button::before {

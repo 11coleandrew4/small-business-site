@@ -8,7 +8,8 @@ import './Home';
 export default function NavBar() {
   return (
     <div id="navbar-container">
-      <div id="navbar-logo">The BBQ Pit</div>
+      <img src="./bbqPitLogo.png" id="navbar-logo" alt="bbq pit logo" />
+
       <ul id="navbar-list">
         <li>
           <Link to="/">Home</Link>

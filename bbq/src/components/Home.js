@@ -10,6 +10,7 @@ export default function Home() {
     <div id="home-container">
       <Banner />
       <HoursBanner />
+      <AboutUs />
     </div>
   );
 }

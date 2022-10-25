@@ -4,8 +4,8 @@ import '../AboutUs.css';
 export default function AboutUs() {
   return (
     <div className="about-us-container">
+      <h1>Our Story</h1>
       <img src="/owner.png" alt="interior" id="interior-picture" />
-      <h2>Our Story</h2>
       <p>
         As if you didn’t know by now, The BBQ Pit is a family owned and run
         business. My late father, Frank Karigan established The BBQ Pit in 1978.
@@ -24,7 +24,10 @@ export default function AboutUs() {
         we are the last of a dying breed and we thank you for recognizing that
         these types of establishments still have a place in your life. We live
         in a busy world and I am honored to have you here to hang your hat and
-        eat a good ole’ home cooked meal.
+        eat a good ole’ home cooked meal. <br /> <br />
+        Thanks,
+        <br />
+        Gus
       </p>
     </div>
   );

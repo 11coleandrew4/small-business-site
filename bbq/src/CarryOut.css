@@ -23,6 +23,8 @@
   z-index: 10;
   display: flex;
   flex-direction: column;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .menu-section {
@@ -35,6 +37,7 @@
 
 .title {
   margin-bottom: 1em;
+  margin-inline: 1em;
 }
 
 .menu-item-container {
@@ -61,6 +64,7 @@
 
 .section-description {
   margin-bottom: 2em;
+  margin-inline: 2em;
   font-style: italic;
 }
 

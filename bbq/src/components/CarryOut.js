@@ -90,7 +90,7 @@ let menuItems = [
     price: '$15.99',
     type: 'Burgers & Sandwitches',
     typeInfo:
-      'Items include Fries or Sweet Potato Fries and Cole Slaw. Baked/Sweet Potato or Vegetables $1 extra. Many of these Sandwitches are heart healthy.',
+      'Items include Fries/Sweet Potato Fries and Cole Slaw. Baked/Sweet Potato or Vegetables $1 extra. Many of these Sandwitches are heart healthy.',
     isTop: true,
     isBottom: false,
   },

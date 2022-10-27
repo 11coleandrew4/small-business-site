@@ -222,8 +222,14 @@ export default function CarryOut() {
             {items.map((item, index) => {
               let seperator = '';
               let title = '';
+              let sectionDescription = '';
+              item.isTop
+                ? (sectionDescription = (
+                    <p className="section-description">{item.typeInfo}</p>
+                  ))
+                : (sectionDescription = '');
               !item.isBottom
-                ? (seperator = <p>-</p>)
+                ? (seperator = <p className="item-seperator">-</p>)
                 : (seperator = (
                     <h3 className="section-divider">* * * * * *</h3>
                   ));
@@ -233,6 +239,7 @@ export default function CarryOut() {
               return (
                 <div key={index}>
                   {title}
+                  {sectionDescription}
                   <div className="menu-item-container">
                     <h3 className="menu-item">{item.dish}</h3>
                     <p className="description">

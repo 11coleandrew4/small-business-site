@@ -11,7 +11,7 @@ export default function AboutUs() {
         business. My late father, Frank Karigan established The BBQ Pit in 1978.
         Our original location was around the corner on First Ave. Many of you
         reading this remember its “joint” type atmosphere. The location is all
-        that has changed, really. The meat of our menu is still the same with
+        that has changed, really. The meat of our menu is still the same, with
         additions every so often to keep up with changing habits. The Chicago
         Tribune, Chicago Sun-Times, Chicago Magazine and North Shore Magazine
         consistently recognize our BBQ Ribs as the best. Those accolades are

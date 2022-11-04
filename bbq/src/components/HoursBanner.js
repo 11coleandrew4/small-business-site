@@ -10,8 +10,8 @@ export default function HoursBanner() {
       <div id="operating-hours">
         <BsClockHistory id="clock-icon" />
         <h3>
-          Sun: 4-8 pm <br />
-          Mon - Sat: 4-9 pm
+          Mon - Sat: 4-9 pm <br />
+          Sun: 4-8 pm
         </h3>
       </div>
       <div id="address">

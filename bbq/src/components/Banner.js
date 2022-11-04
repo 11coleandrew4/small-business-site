@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import BannerImage from './BannerImage';
 import '../Banner.css';
 
@@ -11,10 +12,14 @@ export default function Banner() {
       </h1>
       <div id="button-container">
         <div className="button-box">
-          <span className="banner-button">Menu</span>
+          <Link to="/carry-out">
+            <span className="banner-button">Menu</span>
+          </Link>
         </div>
         <div className="button-box">
-          <span className="banner-button">Directions</span>
+          <Link to="/directions">
+            <span className="banner-button">Directions</span>
+          </Link>
         </div>
       </div>
     </div>
